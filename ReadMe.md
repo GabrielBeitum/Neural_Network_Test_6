@@ -1,4 +1,4 @@
-# Projeto de Detecção de Ataques de Rede usando Aprendizado de Máquina
+# Projeto de Detecção de Ataques de Rede usando Machine Learning
 
 ## Visão Geral
 
@@ -10,16 +10,26 @@ O projeto está organizado de forma modular para facilitar a manutenção e expa
 
 Teste_6/
 │
+
 ├── main.py                    # Script principal que coordena todo o processo
+
 ├── requirements.txt           # Lista de dependências do projeto
 ├── data/
+
 │   └── fake_network_data.csv  # Dados de rede gerados artificialmente
+
 ├── src/
+
 │   ├── __init__.py            # Torna o diretório src um pacote Python
+
 │   ├── config.py              # Configurações globais do projeto
+
 │   ├── data_preprocessing.py  # Funções para pré-processamento de dados
+
 │   ├── model.py               # Definição e treinamento do modelo
+
 │   └── evaluation.py          # Funções para avaliação do modelo
+
 └── Generador/
     └── Generate_fake_data.py  # Script para gerar dados de rede sintéticos
 
