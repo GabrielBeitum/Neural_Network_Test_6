@@ -10,8 +10,11 @@ O projeto está organizado de forma modular para facilitar a manutenção e expa
 
 Teste_6/
 │
+
 ├── main.py                    # Script principal que coordena todo o processo
+
 ├── requirements.txt           # Lista de dependências do projeto
+
 ├── data/
 │   └── fake_network_data.csv  # Dados de rede gerados artificialmente
 ├── src/
